@@ -1,0 +1,81 @@
+.fa-solid, .fas {
+    font-weight: 900;
+}
+@media screen and (max-width: 992px) {
+    .mobile-menu {
+        display: block;
+        z-index: 2;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 992px) {
+    .mobile-menu {
+        /* display: block; */
+        /* z-index: 2; */
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+.fa-solid{
+-webkit-font-smoothing: antialiased;
+display: var(--fa-display, inline-block);
+font-style: normal;
+font-variant: normal;
+line-height: 1;
+text-rendering: auto;
+}
+
+.fa-bars:before{
+    content: "\f0c9";
+}
+@media screen and (max-width: 992px) {
+    .closeBtn {
+        display: block;
+    }
+}
+@media screen and (max-width: 992px) {
+    .activeBtn {
+        display: none;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .nav-link {
+        width: 300px;
+    }
+    @media screen and (max-width: 992px) {
+        .nav-active {
+            opacity: 1;
+            right: 0;
+            visibility: visible;
+            pointer-events: auto;
+            transform: translateX(0%);
+            transition: all 0.5s ease;
+        }   
+    }       
+    @media screen and (max-width: 992px) {
+        .nav-link {
+            width: 50vw;
+            height: 100vh;
+            position: absolute;
+            flex-direction: column;
+            justify-content: normal;
+            align-items: flex-start;
+            gap: 20px;
+            top: 0;
+            padding: 4em 5em 0;
+            background-color: white;
+            border-left: 1px solid rgb(235, 228, 228);
+        }
+    }    
+.close{
+    display: inline-block;
+}  
+.fa-xmark:before {
+    content: "\f00d";
+}
+@media screen and (max-width: 992px) {
+    .closeBtn {
+        display: block;
+    }
+}   
